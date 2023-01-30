@@ -1,0 +1,22 @@
+GET http://localhost:3002/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJJbWFtIFJhbWFkaGFuIiwiZW1haWwiOiJpbWFtQGdtYWlsLmNvbSIsImlhdCI6MTY3NTA0NDI2NCwiZXhwIjoxNjc1MDQ0MzI0fQ.8oXCJe-EoGacERRgVgK8m1dFDvM228Qm6M65mehXYmk
+
+###
+POST http://localhost:3002/users
+Content-Type: application/json
+
+{
+    "name" : "Imam Ramadhan",
+    "email" : "imam@gmail.com",
+    "password" : "123456",
+    "confirmPassword" : "123456"
+}
+
+###
+POST http://localhost:3002/login
+Content-Type: application/json
+
+{
+    "email" : "imam@gmail.com",
+    "password" : "123456"
+}
