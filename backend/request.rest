@@ -1,5 +1,5 @@
 GET http://localhost:3002/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJJbWFtIFJhbWFkaGFuIiwiZW1haWwiOiJpbWFtQGdtYWlsLmNvbSIsImlhdCI6MTY3NTA0NDI2NCwiZXhwIjoxNjc1MDQ0MzI0fQ.8oXCJe-EoGacERRgVgK8m1dFDvM228Qm6M65mehXYmk
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJJbWFtIFJhbWFkaGFuIiwiZW1haWwiOiJpbWFtQGdtYWlsLmNvbSIsImlhdCI6MTY3NTE2NzgxOSwiZXhwIjoxNjc1MTY3ODc5fQ.AwiORwmGVe_G7lBwDmoH93ZiRzjlOWy7B-K3KC0NNMQ
 
 ###
 POST http://localhost:3002/users
@@ -20,3 +20,9 @@ Content-Type: application/json
     "email" : "imam@gmail.com",
     "password" : "123456"
 }
+
+###
+GET http://localhost:3002/token
+
+###
+DELETE http://localhost:3002/logout
