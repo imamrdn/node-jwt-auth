@@ -8,19 +8,19 @@ const Login = () => {
           <div className="columns is-centered">
             <div className="is-4-dekstop">
                 <form className="box">
-                    <div className="field">
+                    <div className="field mt-5">
                         <label className="label">Email or Username</label>
                         <div className="controls">
                             <input type="text" placeholder="Username" className="input"/>
                         </div>
                     </div>
-                    <div className="field">
+                    <div className="field mt-5">
                         <label className="label">Password</label>
                         <div className="controls">
                             <input type="password" placeholder="********" className="input"/>
                         </div>
                     </div>
-                    <div className="field">
+                    <div className="field mt-5">
                         <button className="button is-success is-fullwidth">Login</button>                        
                     </div>
                 </form>
